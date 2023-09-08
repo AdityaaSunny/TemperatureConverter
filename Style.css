@@ -1,0 +1,50 @@
+
+.container {
+    max-width: 400px;
+    margin: 200px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #4fdceb;
+    border-radius: 10px;
+    box-shadow: 5 5 10px rgba(96, 57, 255, 0.2);
+}
+body{
+    background-image: url(https://source.unsplash.com/1400x1200/?nature);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="number"], select {
+    padding: 8px;
+    margin: 6px 0;
+    border: 1px solid #0029f8;
+    border-radius: 5px;
+    outline: none;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+#result {
+    display: block;
+    opacity: 1;
+
+}
+
+

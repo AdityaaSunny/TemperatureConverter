@@ -1,0 +1,32 @@
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form id="calc" onsubmit="calculateTemp(); 
+        return false">
+            <label for="temp">Enter the temperature to convert:</label>
+            <br>
+            <input type="number" name="temp" id="temp" value="0">
+            <select name="temp_1" id="temp_1">
+                <option value="Cel">&#176;Celsius</option>
+                <option value="Fah">&#176;Fahrenheit</option>
+                <option value="Kel">&#176;Kelvin</option>
+            </select>
+            <br>
+            <input type="submit" name="temp" id="submit">
+            <br>
+            <span id="result"></span>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
